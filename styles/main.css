@@ -91,11 +91,9 @@ nav {
   padding: 60px 0 0 0;
   transition: left 0.5s ease;
 }
-
 .navMenu.active {
   left: 0;
 }
-
 .navMenuToggle {
   background: none;
   border: none;
@@ -103,17 +101,18 @@ nav {
   color: var(--text-color);
   cursor: pointer;
 }
-
 .navMenu li a {
   color: var(--text-color);
   font-size: 1.3rem;
+  transition: .3s ease;
 }
-
+.navMenu li a:hover {
+  color: var(--hero-color);
+}
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 /* ===== Hero Section ===== */
 .hero {
   background: var(--hero-color);
@@ -128,11 +127,9 @@ nav {
   margin-top: 50px;
   padding: 80px 10px 40px 10px;
 }
-
 .heroText p {
   margin-top: 8px;
 }
-
 .hero img,
 .aboutMe img {
   max-width: 500px;
@@ -145,23 +142,19 @@ nav {
 .breakwrapper {
   background: #e9dccb;
 }
-
 .breakSection {
   text-align: center;
   padding-top: 55px;
 }
-
 .breakSection h2 {
   font-size: 2rem;
 }
-
 .breakSection a {
   color: #8e5a2d;
   background: transparent;
   font-weight: 600;
   transition: 0.3s;
 }
-
 .breakSection a:hover {
   color: #b56f34;
 }
@@ -170,16 +163,13 @@ nav {
 .aboutWrapper {
   padding: 50px 10px;
 }
-
 .boldtext {
   font-weight: 600;
 }
-
 .fa-quote-left,
 .fa-quote-right {
   color: var(--text-color);
 }
-
 .aboutMe {
   display: flex;
   flex-direction: column;
@@ -204,15 +194,12 @@ nav {
   column-gap: 10px;
 }
 .skills p {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
+  border-bottom: 1px solid var(--text-color);
+  border-top: 1px solid var(--text-color);
   padding: 10px 0;
   transition: 0.3s;
 }
-.skills p:hover {
-  color: var(--hero-color);
-  border-color: var(--hero-color);
-}
+
 /* ===== Posts Section ===== */
 .postWrapper {
   padding: 50px 10px;
