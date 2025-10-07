@@ -2,6 +2,9 @@
   .skills {
     grid-template-columns: repeat(4, 1fr);
   }
+  .postSection div .stats {
+    flex-direction: row;
+  }
 }
 @media screen and (min-width: 900px) {
   .navMenuToggle {
