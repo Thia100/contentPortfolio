@@ -138,7 +138,30 @@ nav {
   border-radius: 10px;
 }
 
-/* ===== Break Section ===== */
+/* ===== Brand Logo Break Section ===== */
+.breakSection.logosBreak {
+  background: var(--nav-color); 
+  padding: 3rem 0;
+  text-align: center;
+}
+.breakSection.logosBreak h2 {
+  color: var(--hero-color);
+  margin-bottom: 1.5rem;
+}
+.brandLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.brandLogos img {
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: fadeInUp opacity 0.3s ease, transform 0.3s ease;
+}
+
 .breakwrapper {
   background: #e9dccb;
 }
@@ -243,7 +266,6 @@ nav {
   color: #d9a066;
 }
 
-
 .experienceWrapper {
   background-color: #fafafa;
   padding: 4rem 0;
@@ -276,7 +298,7 @@ nav {
   padding-left: 1.5rem;
   line-height: 1.5;
 }
-.experienceCard ul li{
+.experienceCard ul li {
   list-style: disc;
   margin-bottom: 10px;
 }
