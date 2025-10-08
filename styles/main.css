@@ -104,7 +104,7 @@ nav {
 .navMenu li a {
   color: var(--text-color);
   font-size: 1.3rem;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 .navMenu li a:hover {
   color: var(--hero-color);
@@ -214,58 +214,72 @@ nav {
   padding: 0 20px;
 }
 
-.postSection div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 30px;
-    background: var(--nav-color);
-    border-radius: 12px;
-}
-.postSection div .stats{
-    display: flex;
-    flex-direction: column;
-    border: none;
-}
-.postSection div .stats p{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-
-}
-.postSection a {
-  color: var(--hero-color);
-  transition: 0.3s;
-}
-
-.postSection a:hover {
-  color: #d9a066;
-}
-/* .postSection div {
+.postSection div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  border-radius: 10px;
-
-  transition: 0.3s;
+  padding: 10px;
+  gap: 30px;
+  background: var(--nav-color);
+  border-radius: 12px;
 }
-
-.postSection div:hover {
-  transform: translateY(-5px);
+.postSection div .stats {
+  display: flex;
+  flex-direction: column;
+  border: none;
 }
-
+.postSection div .stats p {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .postSection a {
   color: var(--hero-color);
-  font-weight: 600;
   transition: 0.3s;
 }
 
 .postSection a:hover {
   color: #d9a066;
-} */
+}
+
+
+.experienceWrapper {
+  background-color: #fafafa;
+  padding: 4rem 0;
+}
+.experienceSection h2 {
+  margin-bottom: 2rem;
+}
+
+.experienceCard {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.experienceCard h3 {
+  font-family: "Playfair Display", serif;
+  margin: 2px 0 3px 0;
+}
+
+.experienceCard .date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.experienceCard ul {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  line-height: 1.5;
+}
+.experienceCard ul li{
+  list-style: disc;
+  margin-bottom: 10px;
+}
 
 /* ===== Footer ===== */
 footer {
